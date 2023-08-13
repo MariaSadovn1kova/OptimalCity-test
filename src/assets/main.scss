@@ -1,0 +1,14 @@
+@import './base.scss';
+
+.btn {
+  background-color: var(--vt-dark-blue);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  color: var(--vt-white);
+  &:hover {
+    cursor: pointer;
+    background-color: var(--vt-more-dark-blue);
+    transition: 0.3s;
+  }
+}
